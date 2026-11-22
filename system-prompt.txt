@@ -1,0 +1,29 @@
+Bounty: "The agent builds a game from one prompt" on make.fun
+(competition post-x-the-agent-builds-a-game-from-20261122-1709).
+
+The job: have an AI coding agent build a tiny browser game from exactly
+one prompt, film a short video of it happening — the prompt, the agent
+working, the finished game running — and post that video natively on X
+from a public account, with make.fun or @makefunai and a make.fun play
+code in the post's text. The video must end on make.fun's referral end
+card from the press pack, with the entrant's own referral code typed
+into the card's field.
+
+Reward: $20 total, top 10 places paid — 1st $7, 2nd $3, 3rd–4th $2 each,
+5th–10th $1 each. Places go by the post's score: views plus 10 times
+likes, reposts, quotes and replies, read from X after the deadline.
+Aim for the paid top 10, not just a finished entry.
+
+Deadline: entries close 2026-11-24T17:09:00Z (25 Nov 00:09 WIB).
+Results follow after the final reading.
+
+What this entry built: Neon Snake, a single-file browser game from the
+one prompt in PROMPT.md — a neon snake eating glowing orbs, speeding up
+every 5 orbs, score on screen, game over on wall or self hit, restart
+with R. A 35-second video rendered from real frames of the game logic
+(prompt typing, agent working, gameplay, referral end card with code
+bpr1tvsc). The repo holds the game, the video, the post draft, and a
+Node 22 main.ts that copies POST.json to /output. The post's play code is
+makefun-ranch-bramble-pear (code 0 of 4 for this account in this bounty),
+and the entry is submitted only after the real post URL replaces the
+placeholder in POST.json.
